@@ -1,8 +1,10 @@
 import axios from "axios";
 import { io } from "socket.io-client";
 
-const BackendBaseUrl = "#";
-const APIBaseUrl = "#/api";
+const BackendBaseUrl =
+  "https://week-7-devops-deployment-assignment-sou9.onrender.com";
+const APIBaseUrl =
+  "https://week-7-devops-deployment-assignment-sou9.onrender.com/api";
 
 const API = axios.create({
   baseURL: APIBaseUrl,
